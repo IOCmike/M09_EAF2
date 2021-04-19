@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Arxiu CSS -->
+    <link rel="stylesheet" href="css/estils.css"/>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4da69e2ac8.js" crossorigin="anonymous"></script> 
+
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <title>Cool Media</title>
+  </head>
+
+    <!--Menu-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+            <img src="favicons/android-icon-192x192.png" alt="Cool Media" width="70">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="audio.html">Audio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.html">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="playlist.html">Reproductor de vídeo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="transicions.html">Transicions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="animacions.html">Animacions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="canvas.html">Canvas</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+  </nav>
+
+  <!--Contenido-->
+  <body>
+    <div class="row">
+      <div class="col-lg-10"><h3>EAF2. Activitat 1.3</h3>
+        <h4>1. Citeu un parell de programes lliures i propietaris pel tractament d'imatges i comenteu breument la conveniència d'uns envers els altres.</h4>
+        <p>Utilitzarem els softwares GIMP i Adobe Photoshop per parlar de programari pel tractament d'imatge.</p>
+        <p><b>GIMP: </b>Es un programari gratuït disponible per Windows, MacOs i Linux. GIMP es l'editor d'imatge lliure per excel·lència. Pot obrir i exportar en els formats més utilitzats. Es un programa molt complet que permet des de fer retoc d'imatge professional o disseny gràfic a simplement utilitzar-lo com a convertidor de format. Es una opció excel·lent per utilitzar-lo de forma puntual si no tens instal·lat cap altre programa.</p>
+        <p><b>Adobe Photoshop: </b>Es un software de pagament disponible per Windows i MacOs. Es l'editor d'imatge més utilitzat. Photoshop té encara més eines que GIMP i tot i que per fer retocs bàsics et poden funcionar molt bé els dos, a GIMP hi ha moltes funcions que se li escapen. 
+        Photoshop cada 12 mesos rep una nova actualització amb millores i noves funcions, a més, cada vegada està millor optimitzat per ordinadors amb pocs recursos. 
+        Un altre avantatge, que amb cada actualització va millorant, es la interacció de Photoshop amb els altres programes d'Adobe. Pots obrir un projecte de Photoshop (.psd) a Adobe Premiere o Adobe After effects i pots anar fent canvis en la imatge a Photoshop i aquests canvis es veuran a Adobe Premiere quasi en temps real sense necessitat d'exportar la imatge de Photoshop. 
+        A nivell professional es recomanable utilitzar Photoshop ja que es l'estàndard de la industria.</p>
+        <h4>2. Quins són els aspectes fonamentals per optimitzar una imatge per al web? Expliqueu com heu optimitzat el vostre logo i mostreu les seves característiques (mida,...).</h4>
+        <p>Per pujar imatges al web tenim la necessitat de trobar una bona relació pes/qualitat (poc pes amb la màxima qualitat possible), per això existeixen formats que codifiquen la imatge i treuen informació per tal de que la imatge pesi el menys possible, donant-nos la llibertat de triar quina quantitat d'informació/qualitat està traient. He aprofitat les imatges optimitzades que m'ha generat el web https://www.favicon-generator.org/ i per al logotip he utilitzat la <i>android-icon-192x192.png</i></p>
+        <h4>3. Què és el format SVG? Per què no es recomana fer servir aquest format a llocs webs fets amb gestors de continguts com Wordpress?</h4>
+        <p>El SVG es un format vectorial, això vol dir que pesa molt poc i que podem escalar. Realment no es una imatge, es un arxiu XML amb informació de vectors i la seva posició. Es el recomanat per utilitzar amb icones o gràfics. Wordpress no accepta SVG de forma predeterminada per motius de seguretat però existeixen plug-ins i formes per utilitzar SVG a wordpress.</p>
+      </div>
+    </div>  
+
+<!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<h5>Contacto</h5>
+          <ul class="list-unstyled quick-links">
+						<li><a href="quienessomos.html"><i class="fa fa-angle-right"></i>Quienes somos</a></li>
+						<li><a href="contacta.html"><i class="fa fa-angle-right"></i>Contacta con nosotros</a></li>
+						<li><a href="dondeestamos.html"><i class="fa fa-angle-right"></i>Donde estamos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<h5>Privacidad</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="privacidad.html"><i class="fa fa-angle-right"></i>Politica de privacidad</a></li>
+          </ul>  
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href=""><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="index.html">Cool Media</a></u> </p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+	<!-- Footer -->
+
+  </body>
+</html>
